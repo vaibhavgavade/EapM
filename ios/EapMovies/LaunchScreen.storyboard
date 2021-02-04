@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iphone" translatesAutoresizingMaskIntoConstraints="NO" id="ZY5-Nt-TL2">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EAPMovies" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LzH-RO-Oav">
+                                <rect key="frame" x="87" y="195" width="228" height="47"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="47" id="Fxh-Pz-9ef"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="43"/>
+                                <color key="textColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="trailing" secondItem="LzH-RO-Oav" secondAttribute="trailing" constant="60" id="1Bc-6O-5Vh"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="trailing" secondItem="ZY5-Nt-TL2" secondAttribute="trailing" id="7Wc-K9-58u"/>
+                            <constraint firstItem="ZY5-Nt-TL2" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" id="BGH-Ow-raL"/>
+                            <constraint firstItem="LzH-RO-Oav" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" constant="87" id="Ivo-DP-wZp"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="bottom" secondItem="ZY5-Nt-TL2" secondAttribute="bottom" id="MHO-f3-6OA"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="bottom" secondItem="LzH-RO-Oav" secondAttribute="bottom" constant="425" id="k6O-bl-Xvh"/>
+                            <constraint firstItem="ZY5-Nt-TL2" firstAttribute="top" secondItem="Bcu-3y-fUS" secondAttribute="top" id="x9h-ly-tyH"/>
+                            <constraint firstItem="LzH-RO-Oav" firstAttribute="top" secondItem="Bcu-3y-fUS" secondAttribute="top" constant="195" id="zEV-oB-JeV"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="iphone" width="168" height="299"/>
+    </resources>
+</document>

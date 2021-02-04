@@ -1,0 +1,11 @@
+Error: Option "--bundle-output" is missing
+    at /usr/local/lib/node_modules/react-native/node_modules/@react-native-community/cli/build/tools/assertRequiredOptions.js:51:13
+    at Array.forEach (<anonymous>)
+    at assertRequiredOptions (/usr/local/lib/node_modules/react-native/node_modules/@react-native-community/cli/build/tools/assertRequiredOptions.js:40:11)
+    at Command.handleAction (/usr/local/lib/node_modules/react-native/node_modules/@react-native-community/cli/build/index.js:181:42)
+    at Command.listener (/usr/local/lib/node_modules/react-native/node_modules/commander/index.js:315:8)
+    at Command.emit (events.js:314:20)
+    at Command.parseArgs (/usr/local/lib/node_modules/react-native/node_modules/commander/index.js:651:12)
+    at Command.parse (/usr/local/lib/node_modules/react-native/node_modules/commander/index.js:474:21)
+    at setupAndRun (/usr/local/lib/node_modules/react-native/node_modules/@react-native-community/cli/build/index.js:267:24)
+    at Object.run (/usr/local/lib/node_modules/react-native/node_modules/@react-native-community/cli/build/index.js:206:11)
